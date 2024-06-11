@@ -1,0 +1,89 @@
+{
+    "user": [
+        {
+            "name": "Akhila",
+            "mobNumber": "6169003852",
+            "age": 24,
+            "dob": "1999-09-23",
+            "email": "admin@gmail.com",
+            "password": "123456",
+            "address": {
+                "addLine1": "310-1B",
+                "addLine2": "Manzana ct nw",
+                "city": "Grand Rapids",
+                "state": "Michigan",
+                "zipCode": "49534"
+            },
+            "language": [
+                "English",
+                "Hindi",
+                "Telugu"
+            ],  
+            "gender": "Female",
+            "aboutYou": "I am a programmer...",
+            "uploadPhoto": "ashish.png",
+            "agreetc": true,
+            "role": "admin",
+            "id": 1
+             
+
+
+
+        }
+    ],
+    "products": [
+        {
+            "id": 1,
+            "name": "coffee mug",
+            "uploadPhoto": "https://images.app.goo.gl/ixNfJy5CAys2Vi9y5",
+            "productDescription": "Natural stoneware forms a round mug with a half-circle handle. Before it's fired, the mug is dipped into a tan reactive glaze from top to almost-bottom, leaving a single band of natural stoneware at the base. Each will be unique, with variation in color and glaze height. CB2 exclusive.",
+            "MRP": "150",
+            "DP": "100",
+            "Status": "publish"
+        },
+        {
+            "id": 2,
+            "name": "flower vase",
+            "uploadPhoto": "https://images.app.goo.gl/ALKXQ7c255YQYbX87",
+            "productDescription": "Upgrade your home to a luxury status with this modern table vase. The exclusive qualities of this vase, such as vibrant colors, sturdy design, and bonus hints of natural beauty will complete the look of any room. It's unique shape design will add a modern appeal to your living room, hallway, dining room or any room corner. The vase is pretty enough to show off without any fillings. For an even more striking display fill it up silk flowers, branches or tall wispy grass. Whether you display it in your living room, entryway or dining room, it'll bring your home decor to the next level.",
+            "MRP": "1000",
+            "DP": "900",
+            "Status": "draft"  
+        },
+        {
+            "id": 3,
+            "name": "wall painting",
+            "uploadPhoto": "https://images.app.goo.gl/sB1NLv5xyqocPbZK8",
+            "productDescription": "Abstract Modern Painting, Large Painting for Living Room, Simple Abstract Paintings, Acrylic Painting on Canvas, Hand Painted Canvas Art",
+            "MRP": "5000",
+            "DP": "3000",
+            "Status": "inactive" 
+        }
+    ],
+    "orders": [
+        {
+            "id": 1,
+            "userId": 3,
+            "sellerid": 2,
+            "product": {
+                "id": 1,
+                "name": "coffee mug",
+                "uploadPhoto": "https://images.app.goo.gl/ixNfJy5CAys2Vi9y5",
+                 "productDescription": "Natural stoneware forms a round mug with a half-circle handle. Before it's fired, the mug is dipped into a tan reactive glaze from top to almost-bottom, leaving a single band of natural stoneware at the base. Each will be unique, with variation in color and glaze height. CB2 exclusive.",
+                "MRP": "150",
+                "DP": "100",
+                 "Status": "publish"
+            },
+            "deliveryAddress": {
+                "id": 0,
+                "addLinel": "Marathalli",
+                "addLine2": "Aswathnagar",
+                "city": "Bangalore",
+                "state": "Choose...",
+                "zipCode": 560037
+            },
+            "contact": "9491051315",
+            "dateTime": "18/12/2024"
+         }
+    ]
+}
